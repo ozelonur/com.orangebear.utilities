@@ -1,6 +1,6 @@
 {
-    "name" : "com.orangebear.entitysystem",
-    "displayName" : "Orange Bear Entity System",
+    "name" : "com.orangebear.utilities",
+    "displayName" : "Orange Bear Utility System",
     "version" : "1.0.0",
     "unity" : "2021.3",
     "author" : "Onur ÖZEL",
@@ -8,7 +8,7 @@
     "dependencies" : {},
     "repository" : {
       "type" : "git",
-      "url" : "https://github.com/ozelonur/com.orangebear.entitysystem.git"
+      "url" : "https://github.com/ozelonur/com.orangebear.utilities.git"
     }
   
 }
