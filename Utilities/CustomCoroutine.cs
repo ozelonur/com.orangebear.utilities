@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using System;
 
 namespace OrangeBear.Utilities
 {
@@ -13,9 +14,11 @@ namespace OrangeBear.Utilities
             }
         }
 
-        public static IEnumerator WaitOneFrame()
+        public static IEnumerator WaitOneFrame(Action callback = null)
         {
             yield return new WaitForEndOfFrame();
+            
+            callback?.Invoke();
         }
     }
 }
