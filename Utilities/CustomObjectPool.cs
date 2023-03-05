@@ -38,6 +38,13 @@ namespace OrangeBear.Utilities
 
             return obj;
         }
+        
+        public List<T> GetPoolAsList()
+        {
+            List<T> list = _objects.ToList();
+            
+            return list;
+        }
 
         public void Release(T obj)
         {
