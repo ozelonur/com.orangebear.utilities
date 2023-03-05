@@ -1,7 +1,7 @@
 {
     "name" : "com.orangebear.utilities",
     "displayName" : "Orange Bear Utility System",
-    "version" : "1.0.1",
+    "version" : "1.0.2",
     "unity" : "2021.3",
     "author" : "Onur ÖZEL",
     "description" : "This is a Orange Bear Entity System package for store datas easily",
